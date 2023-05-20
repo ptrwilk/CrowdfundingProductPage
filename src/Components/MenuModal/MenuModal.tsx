@@ -1,4 +1,4 @@
-import { Box, Modal, useMediaQuery } from "@mui/material";
+import { Box, Modal } from "@mui/material";
 import styles from "./styles.module.scss";
 import { IModalProps } from "../types";
 import { Menu } from "..";

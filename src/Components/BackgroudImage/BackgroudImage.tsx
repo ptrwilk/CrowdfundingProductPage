@@ -1,4 +1,4 @@
-import { Box, useMediaQuery } from "@mui/material";
+import { useMediaQuery } from "@mui/material";
 import styles from "./styles.module.scss";
 import { ImageHeroDesktop, ImageHeroMobile } from "../../assets";
 

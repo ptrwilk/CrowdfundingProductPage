@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import styles from "./styles.module.scss";
 import { IComponent } from "../types";
 import classNames from "classnames";

@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 import { Bookmark, Button, Card } from "..";
-import { Box, List, ListItem, Typography, useMediaQuery } from "@mui/material";
+import { Box, Typography, useMediaQuery } from "@mui/material";
 import { LogoMastercraft } from "../../assets";
 import { IComponent } from "../types";
 import classNames from "classnames";
