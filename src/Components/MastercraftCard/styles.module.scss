@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 1.5rem 2.5rem;
+  font-size: 10px;
+
+  .img-logo-mc {
+    position: absolute;
+    top: -28px;
+  }
+
+  .title {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: var(--black);
+  }
+
+  .text {
+    font-size: 1.4em;
+    text-align: center;
+    color: var(--darkgray);
+  }
+
+  .items {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+
+    .btn {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+}

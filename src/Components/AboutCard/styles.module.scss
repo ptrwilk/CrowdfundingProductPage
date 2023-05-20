@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.5rem 1.5rem;
+  font-size: 10px;
+
+  .title {
+    font-weight: 700;
+    font-size: 1.8em;
+  }
+
+  .text {
+    font-size: 1.4em;
+    color: var(--darkgray);
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,12 @@
+.img-hero {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  z-index: -1;
+
+  @media (min-width: 1000px) {
+    height: 400px;
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 8rem 1.5rem;
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: var(--white);
+    font-size: 10px;
+
+    .title {
+      text-align: center;
+      font-weight: 700;
+      font-size: 2em;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 1.35em;
+      color: var(--darkgray);
+    }
+
+    .btn {
+      margin-top: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    padding: 23rem 1.5rem;
+  }
+}

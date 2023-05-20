@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem 2.5rem;
+
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    li {
+      width: auto;
+    }
+
+    hr {
+      width: 70px;
+      opacity: 0.5;
+      background: var(--darkgray);
+    }
+  }
+
+  .progress {
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .items {
+      flex-direction: row;
+      align-items: stretch;
+      align-self: flex-start;
+      gap: 2.5rem;
+
+      li {
+        display: flex;
+      }
+
+      .divider-vertical {
+        width: 1px;
+        opacity: 0.3;
+        background: var(--darkgray);
+      }
+
+      li p {
+        text-align: start !important;
+      }
+    }
+  }
+}

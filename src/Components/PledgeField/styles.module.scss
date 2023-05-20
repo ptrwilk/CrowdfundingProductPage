@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  .radio {
+    padding: 0;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--black);
+
+    &.canHover:hover {
+      cursor: pointer;
+      color: var(--moderatecyan);
+    }
+
+    .pledge {
+      font-size: 0.95em;
+      font-weight: 700;
+      color: var(--moderatecyan);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .title {
+      flex-direction: row;
+      align-items: center;
+      gap: 1.5rem;
+
+      &.wide {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+      }
+    }
+  }
+}

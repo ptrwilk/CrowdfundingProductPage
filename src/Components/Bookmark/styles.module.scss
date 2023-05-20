@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  align-items: center;
+  border-radius: 10rem;
+  cursor: pointer;
+  background: var(--lightgray);
+
+  .text {
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--darkgray);
+
+    &.bookmarked {
+      color: var(--darkcyan);
+    }
+  }
+
+  &:hover .text {
+    color: var(--darkgray);
+  }
+}

@@ -1,0 +1,9 @@
+.container {
+  span > svg:first-child {
+    color: hsl(0, 0%, 48%, 0.2);
+  }
+
+  span > svg:nth-child(2) {
+    color: var(--moderatecyan);
+  }
+}

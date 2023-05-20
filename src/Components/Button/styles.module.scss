@@ -1,0 +1,19 @@
+#button {
+  padding: 0.9rem 2rem;
+  border-radius: 2rem;
+  text-transform: none;
+  background: var(--moderatecyan);
+  color: var(--white);
+
+  &:hover {
+    background: var(--darkcyan);
+  }
+
+  &.disabled {
+    background: var(--darkgray);
+  }
+
+  &.disabledWithOpacity {
+    opacity: 0.6;
+  }
+}

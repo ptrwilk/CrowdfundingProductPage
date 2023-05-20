@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 2rem;
+
+  .item {
+    width: auto;
+    cursor: pointer;
+
+    .text {
+      color: var(--white);
+    }
+  }
+
+  &.vertical {
+    flex-direction: column;
+    gap: 0;
+
+    .item {
+      padding: 1.3rem;
+      cursor: pointer;
+
+      .text {
+        font-weight: 500;
+        color: var(--black);
+      }
+
+      &:hover .text {
+        font-weight: 700;
+      }
+    }
+
+    .divider {
+      width: 100%;
+      background: var(--darkgray);
+      opacity: 0.3;
+    }
+  }
+}
